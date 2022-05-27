@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 1640599584}
   - component: {fileID: 1640599583}
   m_Layer: 0
-  m_Name: LoadAssetBundle
+  m_Name: LoadAssetBundleByName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -327,10 +327,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640599582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a85b5ef56af444d9483cde1e36960555, type: 3}
+  m_Script: {fileID: 11500000, guid: 90e1a4ecc037841eea5030750755eae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bundlePath: StandaloneOSX/a.bundle
+  lable: mycube
+  name: Assets/Items/Prefabs/Pistol.prefab
 --- !u!4 &1640599584
 Transform:
   m_ObjectHideFlags: 0

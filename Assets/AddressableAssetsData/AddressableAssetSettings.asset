@@ -66,6 +66,20 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: 9ef6b81b15e00477994793b47e5397ef
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: 1fadedcadf05149bb985d5f8563ff1ce
+      m_ProfileName: New Profile
+      m_Values:
+      - m_Id: 2d203c1ae841c4cd0a142a7e9b88f87d
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: cab2c160fd1904c18af8fd389e899286
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: d5b304130ceaf44eaa01759fe1dd1e7d
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 3fe1ae6074d78481aa54ce818392b635
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 9ef6b81b15e00477994793b47e5397ef
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
     m_ProfileEntryNames:
     - m_Id: 2d203c1ae841c4cd0a142a7e9b88f87d
       m_Name: BuildTarget
@@ -86,6 +100,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - mycube
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 85fd4e495429043be94a8321f85dd5a3, type: 2}

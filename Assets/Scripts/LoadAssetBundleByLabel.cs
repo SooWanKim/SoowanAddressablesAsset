@@ -9,12 +9,14 @@ using System.IO;
 public class LoadAssetBundleByLabel : MonoBehaviour
 {
     public string lable = "mycube";
+    public string name = "";
     async public void Start()
     {
         // var asset = await Addressables.LoadAssetAsync<GameObject>(lable).Task;
         // Debug.Log(asset);
 
         Addressables.InstantiateAsync(lable);
+        Addressables.InstantiateAsync(name);
     }
 
     // async LoadAssetAsync(string path)

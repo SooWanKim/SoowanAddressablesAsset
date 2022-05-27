@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement;
 
-public class BasicReference : MonoBehaviour
+public class LoadAssetByRef : MonoBehaviour
 {
 	public AssetReference baseCube;
 	// Use this for initialization

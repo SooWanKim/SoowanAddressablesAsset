@@ -24,7 +24,8 @@ MonoBehaviour:
   - m_GUID: 88303c53aeb2dec4d8c386e8c0bfe237
     m_Address: Assets/Items/Prefabs/Cube.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - mycube
   - m_GUID: a152f8f6412b6c04893d0639b1d24305
     m_Address: Assets/Items/Prefabs/Sphere.prefab
     m_ReadOnly: 0
