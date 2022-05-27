@@ -330,8 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90e1a4ecc037841eea5030750755eae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lable: mycube
-  name: Assets/Items/Prefabs/Pistol.prefab
+  addressableLable: mycube
+  addressableName: Assets/Items/Prefabs/Pistol.prefab
 --- !u!4 &1640599584
 Transform:
   m_ObjectHideFlags: 0
