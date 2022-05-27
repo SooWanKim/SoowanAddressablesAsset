@@ -11,3 +11,7 @@ AssetReference을 사용하여 비동기로딩이 끝나면 애셋 생성
 Addressables Groups window -> build -> Default Build Script
 
 ![](1.png)
+
+***
+현재 빌드타겟폴더에 .bundle로 나옴
+![](2.png)
