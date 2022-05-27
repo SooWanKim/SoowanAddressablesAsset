@@ -17,7 +17,7 @@ MonoBehaviour:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -39,12 +39,12 @@ MonoBehaviour:
     m_Id: 9ef6b81b15e00477994793b47e5397ef
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
-  m_overridePlayerVersion: 
+  m_overridePlayerVersion: Test
   m_GroupAssets:
   - {fileID: 11400000, guid: 90c1b07e8354a4385b8f71fdac40310f, type: 2}
   - {fileID: 11400000, guid: b8b6ccde9e48f4545ae4efecf4f4681c, type: 2}
   - {fileID: 11400000, guid: f59b111f75a5e4edd8c45032ffc67253, type: 2}
-  - {fileID: 11400000, guid: 280d3c4638730410da3dff2bb8ed8bf1, type: 2}
+  - {fileID: 11400000, guid: 40c07d9ad4ac542d486a3d5748d6ea7c, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -67,19 +67,19 @@ MonoBehaviour:
       - m_Id: 9ef6b81b15e00477994793b47e5397ef
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
     - m_InheritedParent: 
-      m_Id: 1fadedcadf05149bb985d5f8563ff1ce
-      m_ProfileName: New Profile
+      m_Id: 9aa139dbe7ea04add861392f506bd5fa
+      m_ProfileName: Remote
       m_Values:
       - m_Id: 2d203c1ae841c4cd0a142a7e9b88f87d
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: cab2c160fd1904c18af8fd389e899286
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: d5b304130ceaf44eaa01759fe1dd1e7d
-        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+        m_Value: file:///Users/soowan/Desktop/SoowanAddressablesAsset/StandaloneOSX
       - m_Id: 3fe1ae6074d78481aa54ce818392b635
-        m_Value: ServerData/[BuildTarget]
+        m_Value: '[BuildTarget]'
       - m_Id: 9ef6b81b15e00477994793b47e5397ef
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: file:///Users/soowan/Desktop/SoowanAddressablesAsset/StandaloneOSX
     m_ProfileEntryNames:
     - m_Id: 2d203c1ae841c4cd0a142a7e9b88f87d
       m_Name: BuildTarget
@@ -101,6 +101,8 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - mycube
+    - sphere
+    - staff
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 85fd4e495429043be94a8321f85dd5a3, type: 2}
@@ -114,7 +116,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 04f5504f4004a4c1d8591e26c836d5d0, type: 2}
   - {fileID: 11400000, guid: 116af216061f649ab8ee1d40a7e0fd3e, type: 2}
   - {fileID: 11400000, guid: d8a91e789e8a14d6ea69d490dbd0110c, type: 2}
-  m_ActiveProfileId: 9ba2515c12f5b44e39afdfbc373f711c
+  m_ActiveProfileId: 9aa139dbe7ea04add861392f506bd5fa
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}

@@ -6,7 +6,9 @@ using UnityEngine.ResourceManagement;
 
 public class LoadAssetByRef : MonoBehaviour
 {
+    public AssetLabelReference labelRef;
 	public AssetReference baseCube;
+    public AssetReferenceGameObject gameObjectRef;
 	// Use this for initialization
 	void Start () {
 
@@ -20,5 +22,7 @@ public class LoadAssetByRef : MonoBehaviour
 	public void SpawnThing()
 	{
 		baseCube.InstantiateAsync();
+        Addressables.InstantiateAsync(labelRef.labelString);
+        Addressables.InstantiateAsync(gameObjectRef);
 	}
 }
